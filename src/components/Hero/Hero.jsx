@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header/Header'
 import './Hero.css'
-import hero_image from "../../assets/hero_image.png"
+import hero_image from "../../assets/hero_image.png";
 import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
@@ -63,8 +63,8 @@ transition={{...transition, type: 'tween'}}>
      
       {/* hero buttons*/}
       <div className="hero-buttons">
-       <buttons className="btn">Get Started</buttons>
-       <buttons className="btn">Learn More</buttons>
+       <button className="btn">Get Started</button>
+       <button  className="btn">Learn More</button>
       </div>
       </div>
       <div className="right-h">
@@ -81,7 +81,7 @@ transition={{...transition, type: 'tween'}}>
         <span>116 bpm</span>
       </motion.div>
       
-      {/hero images/}
+      {/*hero images*/}
       <img src={hero_image} alt="" className="hero-image"/>
       
       <motion.img
